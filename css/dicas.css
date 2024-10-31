@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+/*    max-width: 940px;*/
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3D3D3D;
+}
+/* Main */
+.main-background{
+    background: url(../img/segredo1.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 6%;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.left-back{
+    background: rgba(0,0,0,0.6);
+    height: 100vh;
+}
+.right-content-dic h1{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.right-content-dic {
+    flex:1 1 30rem;
+    padding-left: 2px;
+    padding-right: 50%;
+}
+
+.inner-main-content-dic {
+    padding: 2rem;
+    margin-top: 30%;
+    
+}
+.inner-main-content-dic h1{
+    font-weight: bold;
+    color: rgb(230, 203, 150);
+}
+.inner-main-content-dic p{    
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: justify;
+    padding: .5rem 0;
+}
+.shopnow-btn-dic {
+    display: block;
+    margin-top: 7px;
+    padding: 1rem 2rem;
+    background-color: var(--maincolor);
+    width: 40%;
+    border-radius: 15px;
+    color: black;
+    font-size: 1.7rem;
+}
+
+.dicas {   
+    display: block;
+    padding-top: 75px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.dicas h1{
+    margin-top: 30px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 30px;
+    text-align: center;
+    background-color: #E1EDF2;
+    
+}
+.dicas p{
+    padding-top: 20px;
+    text-align: justify;
+}
+figure {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 30px;
+    padding: 15px;    
+    text-align: center;    
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+}
+figcaption {
+    margin-top: 10px;
+}
+figcaption a {
+    text-decoration: none;
+    color: #000;
+}
+.bord-dicas {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bord-dicas1 {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure img {
+    width: 100%;
+}
+.dicas h2 {
+    padding-top: 50px;
+    font-size: 20px;
+}
+.veja h2{
+    margin-bottom: 5px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+}
+.veja {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 50%;
+    }
+    #menu-bar{
+        display: initial;
+    }
+    .header{
+        padding: 2rem;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        width: 50rem;
+        background: var(--maincolor);
+        height: 100vh;
+        left:100%;
+    }
+    .navbar a{
+        display: block;
+        color: white;
+        background: black;
+        margin: 3rem;
+        padding: 1.5rem;
+        border-radius: 15px;
+        width: 45rem;
+    }
+    .slick-slide img{     
+        width: 100%;  
+    }  
+    .left-back{  
+        background: rgba(0,0,0,0.6);  
+        height: 100vh;
+    }
+    .right-content-dic h1{    
+        font-weight: bold;    
+        font-size: 20px;    
+        letter-spacing: 2px;
+    }
+    .right-content-dic {
+        flex:1 1 30rem;
+        padding-left: 2px;
+        padding-right: 10%;
+    }
+    .inner-main-content-dic {
+        padding: 2rem;
+        margin-top: 30%;    
+    }
+    .inner-main-content-dic h1{
+        font-weight: bold;
+        color: rgb(230, 203, 150);
+    }
+    .inner-main-content-dic p{        
+        color: #fff;    
+        font-size: 1.3rem;    
+        font-weight: bold;    
+        text-align: justify;    
+        padding: .5rem 0;
+    }
+    .shopnow-btn-dic {    
+        display: block;    
+        margin-top: 7px;    
+        padding: 1rem 2rem;    
+        background-color: var(--maincolor);    
+        width: 40%;    
+        border-radius: 15px;    
+        color: black;    
+        font-size: 1.3rem;
+    }
+    .dicas h1 {
+        font-size: 18px;
+    }
+    .inner-banner h1 {
+        font-size: 20px;
+    }
+    .inner-banner img {
+        width: 70%;
+    }
+}
